@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head-btn button {
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+ul li a {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.header-content {
+    height: 150px;
+    align-items: center;
+}
+
+.head-right {
+    display: flex;
+    gap: 56px;
+    height: 150px;
+    align-items: center;
+}
+
+.burger {
+    display: none;
+}
+
+/* planshet */
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    .my-container {
+        padding: 0 40px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:576px) {
+
+    .my-container {
+        padding: 0 25px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .head-right {
+        display: none;
+    }
+
+    .logo {
+        min-width: 128px;
+    }
+
+}
+
+
+
+/* birinchi section */
+
+
+
+.bir-title {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    /* 156.25% */
+}
+
+.bir-text {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.bir-right {
+
+    max-width: 730px;
+    min-width: 327px;
+}
+
+/* planshet */
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    .birinchi-content {
+
+        padding-top: 100px;
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+        max-width: 457px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width: 576px) {
+
+    .bir-title {
+
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        /* 100% */
+    }
+
+    .birinchi-content {
+        padding-top: 60px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        max-width: 327px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+}
+
+
+.ikki-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+
+
+.bir-p {
+    width: 730px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    padding-top: 70px;
+}
+
+.card-h {
+    padding-top: 23px;
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.card-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    /* 166.667% */
+}
+
+.uch-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.tort-text {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.tort-btn button {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    width: 153px;
+    height: 48px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    .tort.btn {
+        font-family: Livvic;
+        font-size: 18px;
+
+        font-weight: 700px;
+        padding: left 600px;
+        ;
+    }
+
+    .tort-text {
+        margin: 0 auto;
+        left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .tort-btn button {
+
+        flex-wrap: wrap;
+
+
+    }
+
+    .tort-text {
+       
+        text-align: center;
+       
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+     
+        margin-right: 10px;
+    }
+}
